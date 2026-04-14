@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .nav-container{
+        @apply max-w-[1652px] w-full mx-auto
+    }
+}
+
