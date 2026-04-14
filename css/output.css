@@ -1164,6 +1164,10 @@ video {
   background-image: url(/image/banner-bg.png);
 }
 
+.bg-\[url\(\.\/image\/banner-bg\.png\)\] {
+  background-image: url(./image/banner-bg.png);
+}
+
 .bg-cover {
   background-size: cover;
 }
