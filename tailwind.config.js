@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        poppins: ['Poppins', 'sans-serif'],
-        philosopher: ['Philosopher', 'serif'],
+        poppins: ["Poppins", "sans-serif"],
+        philosopher: ["Philosopher", "serif"],
       },
       animation: {
         "spin-slow": "spin 12s linear infinite",
@@ -13,6 +13,9 @@ module.exports = {
       maxWidth: {
         nav: "1650px",
         container: "1400px",
+      },
+      backgroundImage: {
+        banner: "url('../image/banner-bg.png')",
       },
     },
   },
