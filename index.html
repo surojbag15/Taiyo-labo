@@ -21,7 +21,7 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body class="overflow-x-hidden">
     <!-- ================= NAVBAR ================= -->
     <header class="absolute top-0 left-0 w-full z-50">
       <div class="navbar bg-transparent">
@@ -32,11 +32,66 @@
               <ul
                 class="flex text-white gap-4 md:gap-[30px] lg:gap-[40px] xl:gap-[50px] 2xl:gap-[70px]"
               >
-                <li><a class="nav-link" href="">About</a></li>
-                <li><a class="nav-link" href="">Shop</a></li>
-                <li><a class="nav-link" href="">Blog</a></li>
-                <li><a class="nav-link" href="">Science</a></li>
-                <li><a class="nav-link" href="">Contact</a></li>
+                <li>
+                  <a
+                    class="relative group font-poppins text-[16px] hover:text-[#76BA1E] transition-all duration-300"
+                    href=""
+                  >
+                    About
+                    <!-- Hover Underline -->
+                    <span
+                      class="absolute left-0 bottom-[-5px] w-0 h-[2px] bg-[#76BA1E] transition-all duration-300 group-hover:w-full"
+                    ></span>
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="relative group font-poppins text-[16px] hover:text-[#76BA1E] transition-all duration-300"
+                    href=""
+                  >
+                    Shop
+                    <span
+                      class="absolute left-0 bottom-[-5px] w-0 h-[2px] bg-[#76BA1E] transition-all duration-300 group-hover:w-full"
+                    ></span>
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="relative group font-poppins text-[16px] hover:text-[#76BA1E] transition-all duration-300"
+                    href=""
+                  >
+                    Blog
+                    <span
+                      class="absolute left-0 bottom-[-5px] w-0 h-[2px] bg-[#76BA1E] transition-all duration-300 group-hover:w-full"
+                    ></span>
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="relative group font-poppins text-[16px] hover:text-[#76BA1E] transition-all duration-300"
+                    href=""
+                  >
+                    Science
+                    <span
+                      class="absolute left-0 bottom-[-5px] w-0 h-[2px] bg-[#76BA1E] transition-all duration-300 group-hover:w-full"
+                    ></span>
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="relative group font-poppins text-[16px] hover:text-[#76BA1E] transition-all duration-300"
+                    href=""
+                  >
+                    Contact
+                    <span
+                      class="absolute left-0 bottom-[-5px] w-0 h-[2px] bg-[#76BA1E] transition-all duration-300 group-hover:w-full"
+                    ></span>
+                  </a>
+                </li>
               </ul>
             </div>
 
@@ -296,275 +351,695 @@
       </div>
     </header>
 
-    <!-- ================= BANNER SECTION ================= -->
-    <section
-      class="relative min-h-screen overflow-hidden bg-banner bg-cover bg-center"
-    >
-      <div
-        class="max-w-[1400px] mx-auto px-6 min-h-screen pt-[130px] md:pt-[140px] grid grid-cols-1 lg:grid-cols-12 items-center gap-10"
+    <main>
+      <!-- ================= BANNER SECTION ================= -->
+      <section
+        class="relative min-h-screen overflow-hidden bg-banner bg-cover bg-center"
       >
-        <!-- LEFT CONTENT -->
-        <div class="lg:col-span-7 text-white text-center lg:text-left order-1">
-          <!-- Subtitle Wrapper -->
+        <div
+          class="max-w-[1400px] mx-auto px-6 min-h-screen pt-[130px] md:pt-[140px] grid grid-cols-1 lg:grid-cols-12 items-center gap-10"
+        >
+          <!-- LEFT CONTENT -->
           <div
-            class="sub-heading flex lg:justify-start justify-center mb-[22px]"
+            class="lg:col-span-7 text-white text-center lg:text-left order-1"
           >
-            <div class="flex items-center relative">
-              <!-- Icon Image -->
+            <!-- Subtitle Wrapper -->
+            <div
+              class="sub-heading flex lg:justify-start justify-center mb-[22px]"
+            >
+              <div class="flex items-center relative">
+                <!-- Icon Image -->
+                <img
+                  src="./image/sub-heading-img.png"
+                  class="relative w-[35px] sm:w-[50px] md:w-[72px] h-auto z-0 -mr-[20px] sm:-mr-[25px] md:-mr-[35px]"
+                  alt="Icon"
+                />
+                <span
+                  class="relative z-10 font-poppins font-normal text-[11px] sm:text-[14px] md:text-[18px] tracking-[0.15em] sm:tracking-[0.22em] md:tracking-[0.3em] uppercase text-white"
+                >
+                  Better Gut Health Starts Here
+                </span>
+              </div>
+            </div>
+
+            <!-- Heading -->
+            <h1
+              class="font-philosopher text-[42px] md:text-[60px] xl:text-[90px] font-bold leading-tight xl:leading-[95px] mb-[43px]"
+            >
+              INVISIBLE FIBER – VISIBLE EFFECTS
+            </h1>
+
+            <!-- Paragraph -->
+            <p
+              class="font-poppins font-normal text-[14px] sm:text-[16px] md:text-[18px] leading-[22px] sm:leading-[25px] md:leading-[28px] max-w-[650px] mx-auto lg:mx-0 mb-[22px]"
+            >
+              Modern lifestyles, irregular eating habits and stress often
+              disrupt digestive health. Sunfiber is a scientifically developed
+              soluble fiber made from Guar Beans that helps restore balance to
+              your gut microbiome while supporting smooth digestion and daily
+              gut comfort.
+
+              <br /><br />
+
+              Instantly dissolves in water, smoothies or foods, Sunfiber fits
+              seamlessly into everyday life — making gut health simple and
+              convenient.
+            </p>
+
+            <!-- Button -->
+            <a
+              href="#"
+              class="inline-flex items-center justify-center bg-white text-black px-8 py-3 rounded-full font-poppins text-[18px] hover:bg-black hover:text-white transition duration-300"
+            >
+              Shop Now
+            </a>
+          </div>
+
+          <!-- RIGHT IMAGE -->
+          <div
+            class="lg:col-span-5 relative h-[480px] sm:h-[500px] md:h-[650px] lg:h-[700px] w-full order-2 overflow-hidden"
+          >
+            <!-- FSSAI IMAGE -->
+            <img
+              src="./image/fssai-img.png"
+              class="absolute top-[50px] left-0 w-[160px] md:w-[200px] z-[50] opacity-80"
+              alt=""
+            />
+
+            <!-- Slide 1 -->
+            <div
+              class="packet absolute inset-0 flex items-center justify-center lg:justify-end opacity-100 z-40 transition-all duration-700 ease-in-out"
+            >
+              <img
+                src="./image/sunfiber-packet-1.png"
+                class="h-full w-auto object-contain"
+              />
+            </div>
+
+            <!-- Slide 2 -->
+            <div
+              class="packet absolute inset-0 flex items-center justify-center lg:justify-end opacity-0 z-10 transition-all duration-700 ease-in-out"
+            >
+              <img
+                src="./image/sunfiber-packet-2.png"
+                class="h-full w-auto object-contain"
+              />
+            </div>
+
+            <!-- Slide 3 -->
+            <div
+              class="packet absolute inset-0 flex items-center justify-center lg:justify-end opacity-0 z-10 transition-all duration-700 ease-in-out"
+            >
+              <img
+                src="./image/sunfiber-packet-3.png"
+                class="h-full w-auto object-contain"
+              />
+            </div>
+
+            <!-- Slide 4 -->
+            <div
+              class="packet absolute inset-0 flex items-center justify-center lg:justify-end opacity-0 z-10 transition-all duration-700 ease-in-out"
+            >
+              <img
+                src="./image/sunfiber-packet-4.png"
+                class="h-full w-auto object-contain"
+              />
+            </div>
+          </div>
+
+          <!-- PAGINATION -->
+          <div
+            class="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 flex flex-col gap-3 z-10"
+          >
+            <span
+              class="dot w-2 h-2 rounded-full bg-white cursor-pointer transition-all duration-300"
+            ></span>
+            <span
+              class="dot w-2 h-2 rounded-full bg-white/40 cursor-pointer transition-all duration-300"
+            ></span>
+            <span
+              class="dot w-2 h-2 rounded-full bg-white/40 cursor-pointer transition-all duration-300"
+            ></span>
+            <span
+              class="dot w-2 h-2 rounded-full bg-white/40 cursor-pointer transition-all duration-300"
+            ></span>
+          </div>
+        </div>
+
+        <img
+          src="./image/banner-bottom.png"
+          class="w-full h-auto mx-auto block"
+          alt=""
+        />
+      </section>
+      <!-- ===================== Features Section ====================== -->
+      <section class="bg-[#F4FFE6] py-16 px-6 md:px-12 -mt-1 relative z-10">
+        <div class="max-w-[1400px] mx-auto">
+          <!-- Grid Container -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-16">
+            <!-- Feature 1 -->
+            <div
+              class="flex flex-col items-center text-center md:items-start md:text-left max-w-[500px] md:max-w-full mx-auto"
+            >
+              <div class="mb-6">
+                <img
+                  src="./image/feature-sec-img-1.png"
+                  alt="Icon"
+                  class="h-20 w-auto"
+                />
+              </div>
+              <h3
+                class="font-['Philosopher'] font-bold text-[35px] leading-[1.1] text-[#121212] mb-4 mt-4"
+              >
+                Clinically <br class="hidden md:block" />
+                Proven
+              </h3>
+              <p
+                class="font-['Poppins'] font-normal text-[18px] text-[#6A6A6A] leading-[1.6]"
+              >
+                Sunfiber has 150+ Clinical studies in place demonstrating its
+                ability to improve digestive comfort, support gut microbiome
+                balance and promote healthy bowel regularity.
+              </p>
+            </div>
+
+            <!-- Feature 2 -->
+            <div
+              class="flex flex-col items-center text-center md:items-start md:text-left max-w-[500px] md:max-w-full mx-auto"
+            >
+              <div class="mb-6">
+                <img
+                  src="./image/feature-sec-img-2.png"
+                  alt="FSSAI"
+                  class="h-[59px] w-[120px]"
+                />
+              </div>
+              <h3
+                class="font-['Philosopher'] font-bold text-[35px] leading-[1.1] text-[#121212] mb-4 mt-10"
+              >
+                FSSAI Approved <br class="hidden md:block" />
+                Health Benefits
+              </h3>
+              <p
+                class="font-['Poppins'] font-normal text-[18px] text-[#6A6A6A] leading-[1.6]"
+              >
+                Sunfiber with FSSAI approved health claims and can be used in
+                food and nutrition products that support digestive health and
+                gut wellness.
+              </p>
+            </div>
+
+            <!-- Feature 3 -->
+            <div
+              class="flex flex-col items-center text-center md:items-start md:text-left max-w-[500px] md:max-w-full mx-auto"
+            >
+              <div class="mb-6">
+                <img
+                  src="./image/feature-sec-img-3.png"
+                  alt="FODMAP"
+                  class="h-20 w-auto"
+                />
+              </div>
+              <h3
+                class="font-['Philosopher'] font-bold text-[35px] leading-[1.1] text-[#121212] mb-4 mt-4"
+              >
+                Low Fodmap <br class="hidden md:block" />
+                Fiber
+              </h3>
+              <p
+                class="font-['Poppins'] font-normal text-[18px] text-[#6A6A6A] leading-[1.6]"
+              >
+                Sunfiber is certified low FODMAP, making it suitable for
+                individuals with sensitive digestion and those following a low
+                FODMAP diet for better gut comfort.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== About Section ====================== -->
+      <section class="bg-[#F4FFE6] py-16 px-6 md:px-12">
+        <div class="about-content max-w-[741px] mx-auto text-center px-4">
+          <!-- Subtitle -->
+
+          <div class="sub-heading flex justify-center mb-[15px]">
+            <div class="relative inline-block group">
               <img
                 src="./image/sub-heading-img.png"
-                class="relative w-[35px] sm:w-[50px] md:w-[72px] h-auto z-0 -mr-[20px] sm:-mr-[25px] md:-mr-[35px]"
+                class="absolute left-[-25px] top-1/2 -translate-y-1/2 w-[45px] md:w-[75px] h-auto z-0 opacity-100"
                 alt="Icon"
               />
+
               <span
-                class="relative z-10 font-poppins font-normal text-[11px] sm:text-[14px] md:text-[18px] tracking-[0.15em] sm:tracking-[0.22em] md:tracking-[0.3em] uppercase text-white"
+                class="relative z-10 font-poppins font-normal text-[12px] sm:text-[16px] md:text-[20px] tracking-[0.4em] uppercase text-[#2D2A26] pl-2"
               >
-                Better Gut Health Starts Here
+                About us
               </span>
             </div>
           </div>
 
-          <!-- Heading -->
-          <h1
-            class="font-philosopher text-[42px] md:text-[60px] xl:text-[90px] font-bold leading-tight xl:leading-[95px] mb-[43px]"
+          <h2
+            class="font-philosopher text-[38px] md:text-[70px] font-bold leading-tight md:leading-[85px] text-[#121212]"
           >
-            INVISIBLE FIBER – VISIBLE EFFECTS
-          </h1>
+            Smart Prebiotic Fiber For a
+            <span class="text-[#35A318]">Healthy Gut</span>
+          </h2>
 
-          <!-- Paragraph -->
           <p
-            class="font-poppins font-normal text-[14px] sm:text-[16px] md:text-[18px] leading-[22px] sm:leading-[25px] md:leading-[28px] max-w-[650px] mx-auto lg:mx-0 mb-[22px]"
+            class="font-poppins font-normal text-[16px] md:text-[18px] leading-[28px] mt-[31px] mb-[49px] text-[#6A6A6A]"
           >
-            Modern lifestyles, irregular eating habits and stress often disrupt
-            digestive health. Sunfiber is a scientifically developed soluble
-            fiber made from Guar Beans that helps restore balance to your gut
-            microbiome while supporting smooth digestion and daily gut comfort.
-
-            <br /><br />
-
-            Instantly dissolves in water, smoothies or foods, Sunfiber fits
-            seamlessly into everyday life — making gut health simple and
-            convenient.
+            A clinically studied soluble dietary fiber that supports digestive
+            balance, promotes gut regularity and nourishes beneficial gut
+            bacteria — gently and naturally.
           </p>
 
           <!-- Button -->
           <a
             href="#"
-            class="inline-flex items-center justify-center bg-white text-black px-8 py-3 rounded-full font-poppins text-[18px] hover:bg-black hover:text-white transition duration-300"
+            class="inline-flex items-center justify-center bg-[#35A318] text-white px-10 py-4 rounded-full font-poppins text-[18px] hover:bg-black hover:text-white transition duration-300"
           >
-            Shop Now
+            Read More
           </a>
         </div>
 
-        <!-- RIGHT IMAGE -->
+        <!-- Swiper Container -->
+      </section>
+
+      <!-- ===================== More info Section ====================== -->
+
+      <section
+        class="relative bg-[url('/image/more-info-bg.png')] bg-cover bg-center bg-no-repeat pb-40 lg:pb-60 overflow-visible"
+      >
+        <img
+          src="./image/more-info-top-img.png"
+          class="absolute -top-[1px] left-0 w-full h-auto block z-10 scale-x-105 pointer-events-none"
+          alt="Wave Design"
+        />
+
         <div
-          class="lg:col-span-5 relative h-[480px] sm:h-[500px] md:h-[650px] lg:h-[700px] w-full order-2 overflow-hidden"
+          class="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 pt-32 lg:pt-48 relative z-20"
         >
-          <!-- FSSAI IMAGE -->
-          <img
-            src="./image/fssai-img.png"
-            class="absolute top-[50px] left-0 w-[160px] md:w-[200px] z-[50] opacity-80"
-            alt=""
-          />
-
-          <!-- Slide 1 -->
           <div
-            class="packet absolute inset-0 flex items-center justify-center lg:justify-end opacity-100 z-40 transition-all duration-700 ease-in-out"
+            class="flex flex-col lg:flex-row gap-10 items-center lg:items-center text-center lg:text-left mb-16"
           >
-            <img
-              src="./image/sunfiber-packet-1.png"
-              class="h-full w-auto object-contain"
-            />
+            <div class="w-full lg:w-3/5">
+              <div
+                class="sub-heading flex justify-center lg:justify-start mb-[15px]"
+              >
+                <div class="relative flex items-center">
+                  <img
+                    src="./image/sub-heading-img.png"
+                    class="w-[50px] md:w-[60px] h-auto"
+                    alt="Icon"
+                  />
+                  <span
+                    class="font-poppins font-normal text-[12px] md:text-[20px] tracking-[0.4em] uppercase text-[#FFFFFF] -ml-6 md:-ml-8"
+                  >
+                    More Info
+                  </span>
+                </div>
+              </div>
+              <h2
+                class="font-philosopher text-[38px] md:text-[70px] font-bold leading-tight md:leading-[85px] text-[#FFFFFF]"
+              >
+                One Fiber. Endless Ways To
+                <span class="text-[#35A318]">Use It.</span>
+              </h2>
+            </div>
+
+            <div class="w-full lg:w-2/5">
+              <p
+                class="font-poppins font-normal text-[16px] md:text-[18px] leading-[28px] text-[#FFFFFF]"
+              >
+                Sunfiber mixes effortlessly into beverages and foods without
+                altering taste or texture, making it easy to add digestive
+                support to your daily routine. Colorless. Odorless. Tasteless
+              </p>
+            </div>
           </div>
 
-          <!-- Slide 2 -->
+          <!-- video sec -->
           <div
-            class="packet absolute inset-0 flex items-center justify-center lg:justify-end opacity-0 z-10 transition-all duration-700 ease-in-out"
+            class="relative w-full max-w-[1400px] mx-auto -mb-96 lg:-mb-[550px] z-30"
           >
-            <img
-              src="./image/sunfiber-packet-2.png"
-              class="h-full w-auto object-contain"
-            />
-          </div>
+            <div
+              class="relative rounded-[30px] overflow-hidden shadow-2xl group/video"
+            >
+              <img
+                src="/image/video-img.png"
+                alt="Video"
+                class="w-full h-auto object-cover min-h-[300px] transition-transform duration-700 group-hover/video:scale-105"
+              />
 
-          <!-- Slide 3 -->
-          <div
-            class="packet absolute inset-0 flex items-center justify-center lg:justify-end opacity-0 z-10 transition-all duration-700 ease-in-out"
-          >
-            <img
-              src="./image/sunfiber-packet-3.png"
-              class="h-full w-auto object-contain"
-            />
+              <div class="absolute inset-0 flex items-center justify-center">
+                <a
+                  href="#"
+                  class="group relative w-16 h-16 md:w-24 md:h-24 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center border border-white/40 hover:bg-white/30 hover:scale-110 hover:shadow-[0_0_30px_rgba(255,255,255,0.4)] transition-all duration-500"
+                >
+                  <div
+                    class="w-12 h-12 md:w-16 md:h-16 bg-white rounded-full flex items-center justify-center shadow-lg transition-all duration-300 group-hover:bg-[#35A318]"
+                  >
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="ml-1 transition-colors duration-300"
+                    >
+                      <path
+                        d="M5 3L19 12L5 21V3Z"
+                        class="fill-[#35A318] group-hover:fill-white"
+                      />
+                    </svg>
+                  </div>
+                </a>
+              </div>
+            </div>
           </div>
-
-          <!-- Slide 4 -->
-          <div
-            class="packet absolute inset-0 flex items-center justify-center lg:justify-end opacity-0 z-10 transition-all duration-700 ease-in-out"
-          >
+        </div>
+      </section>
+      <!-- ===================== Review Section ====================== -->
+      <section class="bg-white pt-[130px] lg:pt-[440px] pb-[130px]">
+        <div class="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex justify-center items-center">
             <img
-              src="./image/sunfiber-packet-4.png"
-              class="h-full w-auto object-contain"
+              src="./image/girl-img.png"
+              class="w-[490px] h-[480px] object-contain"
+              alt="Centered Section Image"
             />
           </div>
         </div>
+        <!-- <img
+        src="./image/blog-sec-top-img.png"
+        class="w-full h-auto block -mb-[2px] relative z-10 scale-x-105"
+        alt="Top Wave"
+      /> -->
+      </section>
 
-        <!-- PAGINATION -->
-        <div
-          class="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 flex flex-col gap-3 z-10"
-        >
-          <span
-            class="dot w-2 h-2 rounded-full bg-white cursor-pointer transition-all duration-300"
-          ></span>
-          <span
-            class="dot w-2 h-2 rounded-full bg-white/40 cursor-pointer transition-all duration-300"
-          ></span>
-          <span
-            class="dot w-2 h-2 rounded-full bg-white/40 cursor-pointer transition-all duration-300"
-          ></span>
-          <span
-            class="dot w-2 h-2 rounded-full bg-white/40 cursor-pointer transition-all duration-300"
-          ></span>
+      <!-- ===================== Blog Section ====================== -->
+
+      <section
+        class="bg-[url('/image/blog-bg.png')] bg-cover bg-center bg-no-repeat"
+      >
+        <div class="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 py-20">
+          <div class="text-center mb-16">
+            <div class="sub-heading flex justify-center mb-[15px]">
+              <div class="relative inline-block group">
+                <img
+                  src="./image/sub-heading-img.png"
+                  class="absolute left-[-25px] top-1/2 -translate-y-1/2 w-[45px] md:w-[75px] h-auto z-0 opacity-100"
+                  alt="Icon"
+                />
+                <!-- টেক্সট কালার সাদা করা হয়েছে ভালো ফুটানোর জন্য -->
+                <span
+                  class="relative z-10 font-poppins font-normal text-[12px] sm:text-[16px] md:text-[20px] tracking-[0.4em] uppercase text-white pl-2"
+                >
+                  Blogs Post
+                </span>
+              </div>
+            </div>
+
+            <h2
+              class="font-philosopher text-[38px] md:text-[70px] font-bold leading-tight md:leading-[85px] text-white"
+            >
+              Latest <span class="text-[#35A318]">Blog Post</span>
+            </h2>
+          </div>
+
+          <!-- Blog Cards Grid -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Card 1 -->
+            <div
+              class="group relative h-[500px] rounded-[20px] overflow-hidden shadow-lg transition-all duration-500 hover:-translate-y-2"
+            >
+              <img
+                src="./image/blog-card-img-1.png"
+                class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                alt="Blog 1"
+              />
+              <div
+                class="absolute inset-x-0 bottom-0 bg-white p-6 m-4 rounded-[15px] transition-all duration-500"
+              >
+                <h4
+                  class="font-philosopher text-[22px] font-bold text-[#121212] leading-tight"
+                >
+                  Lorem Ipsum is simply dummy text in the industry.
+                </h4>
+                <!-- Hidden Content (Shows on Hover) -->
+                <div
+                  class="max-h-0 opacity-0 group-hover:max-h-40 group-hover:opacity-100 transition-all duration-500 overflow-hidden"
+                >
+                  <p class="font-poppins text-[#6A6A6A] text-[15px] mt-3">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </p>
+                  <a
+                    href="#"
+                    class="inline-block mt-4 text-[#35A318] font-bold relative group/link"
+                  >
+                    Read More
+                    <span
+                      class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#35A318] transition-all duration-300 group-hover/link:w-full"
+                    ></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2 (Middle - Always Expanded with Zoom effect) -->
+            <div
+              class="group relative h-[500px] rounded-[20px] overflow-hidden shadow-2xl ring-4 ring-[#35A318]/10 transition-all duration-500 hover:-translate-y-2"
+            >
+              <!-- ইমেজটিতে জুম ইফেক্ট ক্লাস যোগ করা হয়েছে -->
+              <img
+                src="./image/blog-card-img-2.png"
+                class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                alt="Blog 2"
+              />
+
+              <div
+                class="absolute inset-x-0 bottom-0 bg-white p-6 m-4 rounded-[15px] z-10"
+              >
+                <h4
+                  class="font-philosopher text-[22px] font-bold text-[#121212] leading-tight"
+                >
+                  Lorem Ipsum is simply dummy text in the industry.
+                </h4>
+
+                <div>
+                  <p class="font-poppins text-[#6A6A6A] text-[15px] mt-3">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </p>
+                  <a
+                    href="#"
+                    class="inline-block mt-4 text-[#35A318] font-bold relative group/link"
+                  >
+                    Read More
+                    <span
+                      class="absolute left-0 bottom-0 w-full h-[2px] bg-[#35A318]"
+                    ></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div
+              class="group relative h-[500px] rounded-[20px] overflow-hidden shadow-lg transition-all duration-500 hover:-translate-y-2"
+            >
+              <img
+                src="./image/blog-card-img-3.png"
+                class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                alt="Blog 3"
+              />
+              <div
+                class="absolute inset-x-0 bottom-0 bg-white p-6 m-4 rounded-[15px] transition-all duration-500"
+              >
+                <h4
+                  class="font-philosopher text-[22px] font-bold text-[#121212] leading-tight"
+                >
+                  Lorem Ipsum is simply dummy text in the industry.
+                </h4>
+                <!-- Hidden Content (Shows on Hover) -->
+                <div
+                  class="max-h-0 opacity-0 group-hover:max-h-40 group-hover:opacity-100 transition-all duration-500 overflow-hidden"
+                >
+                  <p class="font-poppins text-[#6A6A6A] text-[15px] mt-3">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </p>
+                  <a
+                    href="#"
+                    class="inline-block mt-4 text-[#35A318] font-bold relative group/link"
+                  >
+                    Read More
+                    <span
+                      class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#35A318] transition-all duration-300 group-hover/link:w-full"
+                    ></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- View All Button -->
+          <div class="mt-16 flex justify-center">
+            <a
+              href="#"
+              class="inline-flex items-center justify-center bg-white text-black px-10 py-4 rounded-full font-poppins text-[18px] hover:bg-black hover:text-white transition duration-300"
+            >
+              View All
+            </a>
+          </div>
         </div>
-      </div>
+      </section>
+    </main>
 
+    <!-- ===================== Footer Section ====================== -->
+    <footer class="relative bg-[#121212] pb-10 overflow-hidden">
       <img
-        src="./image/banner-bottom.png"
-        class="w-full h-auto mx-auto block"
-        alt=""
+        src="./image/blog-sec-bottom-img.png"
+        class="w-full h-auto block -mt-[2px] relative z-10 scale-x-105"
+        alt="Bottom Wave"
       />
-    </section>
-    <!-- ===================== Features Section ====================== -->
-    <section class="bg-[#F4FFE6] py-16 px-6 md:px-12 -mt-1 relative z-10">
-      <div class="max-w-7xl mx-auto">
-        <!-- Grid Container -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-16">
-          <!-- Feature 1 -->
-          <div
-            class="flex flex-col items-center text-center md:items-start md:text-left max-w-[500px] md:max-w-full mx-auto"
-          >
-            <div class="mb-6">
-              <img
-                src="./image/feature-sec-img-1.png"
-                alt="Icon"
-                class="h-20 w-auto"
-              />
-            </div>
-            <h3
-              class="font-['Philosopher'] font-bold text-[35px] leading-[1.1] text-[#121212] mb-4 mt-4"
-            >
-              Clinically <br class="hidden md:block" />
-              Proven
-            </h3>
-            <p
-              class="font-['Poppins'] font-normal text-[18px] text-[#6A6A6A] leading-[1.6]"
-            >
-              Sunfiber has 150+ Clinical studies in place demonstrating its
-              ability to improve digestive comfort, support gut microbiome
-              balance and promote healthy bowel regularity.
-            </p>
-          </div>
-
-          <!-- Feature 2 -->
-          <div
-            class="flex flex-col items-center text-center md:items-start md:text-left max-w-[500px] md:max-w-full mx-auto"
-          >
-            <div class="mb-6">
-              <img
-                src="./image/feature-sec-img-2.png"
-                alt="FSSAI"
-                class="h-[59px] w-[120px]"
-              />
-            </div>
-            <h3
-              class="font-['Philosopher'] font-bold text-[35px] leading-[1.1] text-[#121212] mb-4 mt-10"
-            >
-              FSSAI Approved <br class="hidden md:block" />
-              Health Benefits
-            </h3>
-            <p
-              class="font-['Poppins'] font-normal text-[18px] text-[#6A6A6A] leading-[1.6]"
-            >
-              Sunfiber with FSSAI approved health claims and can be used in food
-              and nutrition products that support digestive health and gut
-              wellness.
-            </p>
-          </div>
-
-          <!-- Feature 3 -->
-          <div
-            class="flex flex-col items-center text-center md:items-start md:text-left max-w-[500px] md:max-w-full mx-auto"
-          >
-            <div class="mb-6">
-              <img
-                src="./image/feature-sec-img-3.png"
-                alt="FODMAP"
-                class="h-20 w-auto"
-              />
-            </div>
-            <h3
-              class="font-['Philosopher'] font-bold text-[35px] leading-[1.1] text-[#121212] mb-4 mt-4"
-            >
-              Low Fodmap <br class="hidden md:block" />
-              Fiber
-            </h3>
-            <p
-              class="font-['Poppins'] font-normal text-[18px] text-[#6A6A6A] leading-[1.6]"
-            >
-              Sunfiber is certified low FODMAP, making it suitable for
-              individuals with sensitive digestion and those following a low
-              FODMAP diet for better gut comfort.
-            </p>
-          </div>
-        </div>
+      <div
+        class="absolute bottom-[-30px] md:bottom-[-60px] lg:bottom-[-110px] left-1/2 -translate-x-1/2 w-full text-center pointer-events-none select-none z-0"
+      >
+        <h1
+          class="font-philosopher font-bold text-[18vw] uppercase text-white/[0.03] leading-none tracking-tighter whitespace-nowrap"
+        >
+          TAIYO-LABO
+        </h1>
       </div>
-    </section>
 
-    <!-- ===================== About Section ====================== -->
-    <section class="bg-[#F4FFE6] py-16 px-6 md:px-12">
-      <div class="about-content max-w-[741px] mx-auto text-center px-4">
-        <!-- Subtitle -->
-
-        <div class="sub-heading flex justify-center mb-[15px]">
-          <div class="relative inline-block group">
+      <div class="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="flex justify-center mb-12">
+          <a href="#">
             <img
-              src="./image/sub-heading-img.png"
-              class="absolute left-[-25px] top-1/2 -translate-y-1/2 w-[45px] md:w-[75px] h-auto z-0 opacity-100"
-              alt="Icon"
+              src="./image/nav-logo.png"
+              alt="Logo"
+              class="w-[180px] md:w-[220px] h-auto"
             />
-
-            <span
-              class="relative z-10 font-poppins font-normal text-[12px] sm:text-[16px] md:text-[20px] tracking-[0.4em] uppercase text-[#2D2A26] pl-2"
-            >
-              About us
-            </span>
-          </div>
+          </a>
         </div>
 
-        <h2
-          class="font-philosopher text-[38px] md:text-[70px] font-bold leading-tight md:leading-[85px] text-[#121212]"
-        >
-          Smart Prebiotic Fiber For a
-          <span class="text-[#35A318]">Healthy Gut</span>
-        </h2>
+        <nav class="mb-12 border-b border-white/10 pb-12">
+          <ul class="flex flex-wrap justify-center gap-6 md:gap-12">
+            <li>
+              <a
+                href="#"
+                class="text-white/80 hover:text-[#35A318] font-poppins text-[16px] transition"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-white/80 hover:text-[#35A318] font-poppins text-[16px] transition"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-white/80 hover:text-[#35A318] font-poppins text-[16px] transition"
+                >Shop</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-white/80 hover:text-[#35A318] font-poppins text-[16px] transition"
+                >Blog</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-white/80 hover:text-[#35A318] font-poppins text-[16px] transition"
+                >Science</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-white/80 hover:text-[#35A318] font-poppins text-[16px] transition"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
 
-        <!-- Paragraph: mt-[31px] r bottom-[49px] applied here -->
-        <p
-          class="font-poppins font-normal text-[16px] md:text-[18px] leading-[28px] mt-[31px] mb-[49px] text-[#6A6A6A]"
+        <div
+          class="flex flex-col md:flex-row justify-between items-center gap-8 text-white/60 font-poppins text-[14px]"
         >
-          A clinically studied soluble dietary fiber that supports digestive
-          balance, promotes gut regularity and nourishes beneficial gut bacteria
-          — gently and naturally.
-        </p>
+          <div class="order-2 md:order-1">
+            © Taiyo-labo 2026. All Rights Reserved.
+          </div>
 
-        <!-- Button -->
-        <a
-          href="#"
-          class="inline-flex items-center justify-center bg-[#35A318] text-white px-10 py-4 rounded-full font-poppins text-[18px] hover:bg-black hover:text-white transition duration-300"
-        >
-          Read More
-        </a>
+          <div class="flex gap-8 order-1 md:order-2">
+            <a href="#" class="hover:text-white transition">Privacy Policy</a>
+            <a href="#" class="hover:text-white transition"
+              >Terms & Conditions</a
+            >
+          </div>
+
+          <div class="flex gap-4 order-3">
+            <!-- Facebook Icon -->
+            <a
+              href="#"
+              class="group w-10 h-10 rounded-full bg-[#769E42] flex items-center justify-center border border-[#769E42] hover:bg-white transition-all duration-300"
+            >
+              <svg
+                width="11"
+                height="20"
+                viewBox="0 0 11 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="transition-all duration-300"
+              >
+                <path
+                  d="M7.60156 1.51074H8.95605V2.23242L7.95898 2.25391C7.42097 2.26273 6.74803 2.40235 6.21191 2.92871C5.7218 3.40991 5.54989 4.01302 5.51465 4.54004L5.50879 4.70996C5.48353 5.46783 5.50781 6.26512 5.50781 6.94629V8.45703H8.85938V9.41797H5.50781V17.8936H4.42578V9.44238H1.51074V8.50586H4.42578V4.85742C4.42578 4.06915 4.56183 3.42913 4.87598 2.87402C5.19881 2.32082 5.63985 1.95982 6.24902 1.73438C6.67567 1.58154 7.10673 1.51076 7.60156 1.51074Z"
+                  fill="white"
+                  stroke="white"
+                  stroke-width="3.02234"
+                  class="group-hover:fill-[#769E42] group-hover:stroke-[#769E42] transition-all duration-300"
+                />
+              </svg>
+            </a>
+
+            <!-- Instagram Icon -->
+            <a
+              href="#"
+              class="group w-10 h-10 rounded-full bg-[#769E42] flex items-center justify-center border border-[#769E42] hover:bg-white transition-all duration-300"
+            >
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 18 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="transition-all duration-300"
+              >
+                <path
+                  d="M17.4143 5.13385C17.3734 4.206 17.2234 3.56818 17.0084 3.01543C16.7866 2.42874 16.4455 1.90348 15.9987 1.46681C15.562 1.02336 15.0332 0.67876 14.4533 0.460511C13.8974 0.245606 13.2629 0.0955135 12.3351 0.0546474C11.4003 0.0102336 11.1036 0 8.73278 0C6.362 0 6.06526 0.0102336 5.13397 0.0511679C4.20616 0.0921023 3.5683 0.242263 3.01572 0.457032C2.42886 0.67876 1.9036 1.01988 1.46694 1.46681C1.02348 1.90345 0.679052 2.43218 0.460634 3.01209C0.245728 3.56818 0.0956697 4.20259 0.0547694 5.13037C0.0103898 6.06514 0.00012207 6.36188 0.00012207 8.73266C0.00012207 11.1034 0.0103898 11.4002 0.05129 12.3315C0.0922244 13.2593 0.242385 13.8971 0.457325 14.4499C0.679052 15.0366 1.02348 15.5618 1.46694 15.9985C1.9036 16.442 2.43234 16.7866 3.01224 17.0048C3.56827 17.2197 4.20268 17.3698 5.13066 17.4107C6.06178 17.4517 6.35869 17.4618 8.72947 17.4618C11.1003 17.4618 11.397 17.4517 12.3283 17.4107C13.2561 17.3698 13.894 17.2198 14.4465 17.0048C15.0269 16.7804 15.554 16.4372 15.994 15.9973C16.434 15.5573 16.7772 15.0302 17.0016 14.4499C17.2164 13.8938 17.3666 13.2593 17.4075 12.3315C17.4484 11.4002 17.4587 11.1034 17.4587 8.73266C17.4587 6.36188 17.4552 6.06511 17.4143 5.13385ZM15.8418 12.2632C15.8042 13.116 15.661 13.5766 15.5416 13.8836C15.2482 14.6443 14.6444 15.248 13.8837 15.5415C13.5767 15.6609 13.1129 15.8041 12.2634 15.8415C11.3423 15.8826 11.0661 15.8927 8.73626 15.8927C6.40638 15.8927 6.1267 15.8826 5.20898 15.8415C4.35618 15.8041 3.89567 15.6609 3.58867 15.5415C3.21013 15.4015 2.86556 15.1798 2.58584 14.8899C2.29589 14.6067 2.07416 14.2656 1.93424 13.887C1.81484 13.58 1.67161 13.116 1.63419 12.2667C1.59312 11.3457 1.58302 11.0693 1.58302 8.73945C1.58302 6.40957 1.59312 6.12988 1.63419 5.21234C1.67161 4.35954 1.81484 3.89903 1.93424 3.59202C2.07416 3.21331 2.29589 2.86882 2.58932 2.58903C2.87231 2.29908 3.21343 2.07735 3.59215 1.93759C3.89915 1.8182 4.36314 1.67493 5.21246 1.63737C6.13349 1.59644 6.40986 1.58621 8.73957 1.58621C11.0729 1.58621 11.3491 1.59644 12.2669 1.63737C13.1196 1.67497 13.5802 1.81817 13.8872 1.93756C14.2657 2.07735 14.6103 2.29908 14.89 2.58903C15.1799 2.87219 15.4017 3.21331 15.5416 3.59202C15.661 3.89903 15.8042 4.36285 15.8418 5.21234C15.8827 6.13336 15.893 6.40957 15.893 8.73945C15.893 11.0693 15.8828 11.3422 15.8418 12.2632Z"
+                  fill="white"
+                  class="group-hover:fill-[#769E42] transition-all duration-300"
+                />
+                <path
+                  d="M8.73279 4.24408C6.25633 4.24408 4.24707 6.25321 4.24707 8.7298C4.24707 11.2064 6.25633 13.2155 8.73279 13.2155C11.2093 13.2155 13.2185 11.2064 13.2185 8.7298C13.2185 6.25321 11.2093 4.24408 8.73279 4.24408ZM8.73279 11.6396C7.12619 11.6396 5.82297 10.3365 5.82297 8.7298C5.82297 7.12306 7.12619 5.82005 8.73276 5.82005C10.3395 5.82005 11.6425 7.12306 11.6425 8.7298C11.6425 10.3365 10.3395 11.6396 8.73279 11.6396ZM14.4432 4.0667C14.4432 4.64503 13.9743 5.11394 13.3958 5.11394C12.8175 5.11394 12.3486 4.64503 12.3486 4.0667C12.3486 3.4883 12.8175 3.01953 13.3959 3.01953C13.9743 3.01953 14.4432 3.48826 14.4432 4.0667Z"
+                  fill="white"
+                  class="group-hover:fill-[#769E42] transition-all duration-300"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
       </div>
-    </section>
+    </footer>
+
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
