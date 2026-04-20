@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Tailwind</title>
+    <title>About Page</title>
     <link href="./css/output.css" rel="stylesheet" />
     <!-- Swiper CSS -->
     <link
@@ -38,6 +38,7 @@
                     href="./about.html"
                   >
                     About
+
                     <span
                       class="absolute left-0 bottom-[-5px] w-0 h-[2px] bg-[#76BA1E] transition-all duration-300 group-hover:w-full"
                     ></span>
@@ -349,555 +350,487 @@
         </div>
       </div>
     </header>
-
-    <main>
-      <!-- ================= BANNER SECTION ================= -->
-      <section
-        class="relative min-h-screen overflow-hidden bg-[url('/image/banner-bg.png')] bg-cover bg-center"
-      >
-        <div
-          class="max-w-[1400px] mx-auto px-6 min-h-screen pt-[130px] md:pt-[140px] grid grid-cols-1 lg:grid-cols-12 items-center gap-10"
+    <!-- ========================BANNER======================= -->
+    <section
+      class="relative h-[600px] overflow-hidden bg-[url('/image/about-us-bg.png')] bg-cover bg-center"
+    >
+      <div class="h-full flex items-center justify-center">
+        <h1
+          class="text-white text-center font-philosopher text-[42px] md:text-[60px] xl:text-[90px] font-bold leading-tight xl:leading-[95px]"
         >
-          <!-- LEFT CONTENT -->
-          <div
-            class="lg:col-span-7 text-white text-center lg:text-left order-1"
-          >
-            <!-- Subtitle Wrapper -->
-            <div
-              class="sub-heading flex lg:justify-start justify-center mb-[22px]"
-            >
-              <div class="flex items-center relative">
-                <!-- Icon Image -->
-                <img
-                  src="./image/sub-heading-img.png"
-                  class="relative w-[35px] sm:w-[50px] md:w-[72px] h-auto z-0 -mr-[20px] sm:-mr-[25px] md:-mr-[35px]"
-                  alt="Icon"
-                />
-                <span
-                  class="relative z-10 font-poppins font-normal text-[11px] sm:text-[14px] md:text-[18px] tracking-[0.15em] sm:tracking-[0.22em] md:tracking-[0.3em] uppercase text-white"
-                >
-                  Better Gut Health Starts Here
-                </span>
-              </div>
-            </div>
+          About Us
+        </h1>
+      </div>
 
-            <!-- Heading -->
-            <h1
-              class="font-philosopher text-[42px] md:text-[60px] xl:text-[90px] font-bold leading-tight xl:leading-[95px] mb-[43px]"
-            >
-              INVISIBLE FIBER – VISIBLE EFFECTS
-            </h1>
+      <img
+        src="./image/banner-bottom.png"
+        class="absolute bottom-0 left-0 w-full h-auto"
+        alt="wave"
+      />
+    </section>
 
-            <!-- Paragraph -->
-            <p
-              class="font-poppins font-normal text-[14px] sm:text-[16px] md:text-[18px] leading-[22px] sm:leading-[25px] md:leading-[28px] max-w-[650px] mx-auto lg:mx-0 mb-[22px]"
-            >
-              Modern lifestyles, irregular eating habits and stress often
-              disrupt digestive health. Sunfiber is a scientifically developed
-              soluble fiber made from Guar Beans that helps restore balance to
-              your gut microbiome while supporting smooth digestion and daily
-              gut comfort.
+    <!-- ===================== About Section ====================== -->
+    <section class="bg-[#F4FFE6] py-16 px-6 md:px-12">
+      <div class="about-content mx-auto text-center px-4">
+        <!-- Subtitle -->
 
-              <br /><br />
-
-              Instantly dissolves in water, smoothies or foods, Sunfiber fits
-              seamlessly into everyday life — making gut health simple and
-              convenient.
-            </p>
-
-            <!-- Button -->
-            <a
-              href="#"
-              class="inline-flex items-center justify-center bg-white text-black px-8 py-3 rounded-full font-poppins text-[18px] hover:bg-black hover:text-white transition duration-300"
-            >
-              Shop Now
-            </a>
-          </div>
-
-          <!-- RIGHT IMAGE -->
-          <div
-            class="lg:col-span-5 relative h-[480px] sm:h-[500px] md:h-[650px] lg:h-[700px] w-full order-2 overflow-hidden"
-          >
-            <!-- FSSAI IMAGE -->
+        <div class="sub-heading flex justify-center mb-[15px]">
+          <div class="relative inline-block group">
             <img
-              src="./image/fssai-img.png"
-              class="absolute top-[50px] left-0 w-[160px] md:w-[200px] z-[50] opacity-80"
-              alt=""
+              src="./image/sub-heading-img.png"
+              class="absolute left-[-25px] top-1/2 -translate-y-1/2 w-[45px] md:w-[75px] h-auto z-0 opacity-100"
+              alt="Icon"
             />
 
-            <!-- Slide 1 -->
-            <div
-              class="packet absolute inset-0 flex items-center justify-center lg:justify-end opacity-100 z-40 transition-all duration-700 ease-in-out"
-            >
-              <img
-                src="./image/sunfiber-packet-1.png"
-                class="h-full w-auto object-contain"
-              />
-            </div>
-
-            <!-- Slide 2 -->
-            <div
-              class="packet absolute inset-0 flex items-center justify-center lg:justify-end opacity-0 z-10 transition-all duration-700 ease-in-out"
-            >
-              <img
-                src="./image/sunfiber-packet-2.png"
-                class="h-full w-auto object-contain"
-              />
-            </div>
-
-            <!-- Slide 3 -->
-            <div
-              class="packet absolute inset-0 flex items-center justify-center lg:justify-end opacity-0 z-10 transition-all duration-700 ease-in-out"
-            >
-              <img
-                src="./image/sunfiber-packet-3.png"
-                class="h-full w-auto object-contain"
-              />
-            </div>
-
-            <!-- Slide 4 -->
-            <div
-              class="packet absolute inset-0 flex items-center justify-center lg:justify-end opacity-0 z-10 transition-all duration-700 ease-in-out"
-            >
-              <img
-                src="./image/sunfiber-packet-4.png"
-                class="h-full w-auto object-contain"
-              />
-            </div>
-          </div>
-
-          <!-- PAGINATION -->
-          <div
-            class="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 flex flex-col gap-3 z-10"
-          >
             <span
-              class="dot w-2 h-2 rounded-full bg-white cursor-pointer transition-all duration-300"
-            ></span>
-            <span
-              class="dot w-2 h-2 rounded-full bg-white/40 cursor-pointer transition-all duration-300"
-            ></span>
-            <span
-              class="dot w-2 h-2 rounded-full bg-white/40 cursor-pointer transition-all duration-300"
-            ></span>
-            <span
-              class="dot w-2 h-2 rounded-full bg-white/40 cursor-pointer transition-all duration-300"
-            ></span>
+              class="relative z-10 font-poppins font-normal text-[12px] sm:text-[16px] md:text-[20px] tracking-[0.4em] uppercase text-[#2D2A26] pl-2"
+            >
+              About us
+            </span>
           </div>
         </div>
 
-        <img
-          src="./image/banner-bottom.png"
-          class="w-full h-auto mx-auto block"
-          alt=""
-        />
-      </section>
-      <!-- ===================== Features Section ====================== -->
-      <section class="bg-[#F4FFE6] py-16 px-6 md:px-12 -mt-1 relative z-10">
-        <div class="max-w-[1400px] mx-auto">
-          <!-- Grid Container -->
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-16">
-            <!-- Feature 1 -->
-            <div
-              class="flex flex-col items-center text-center md:items-start md:text-left max-w-[500px] md:max-w-full mx-auto"
-            >
-              <div class="mb-6">
-                <img
-                  src="./image/feature-sec-img-1.png"
-                  alt="Icon"
-                  class="h-20 w-auto"
-                />
-              </div>
-              <h3
-                class="font-['Philosopher'] font-bold text-[35px] leading-[1.1] text-[#121212] mb-4 mt-4"
-              >
-                Clinically <br class="hidden md:block" />
-                Proven
-              </h3>
-              <p
-                class="font-['Poppins'] font-normal text-[18px] text-[#6A6A6A] leading-[1.6]"
-              >
-                Sunfiber has 150+ Clinical studies in place demonstrating its
-                ability to improve digestive comfort, support gut microbiome
-                balance and promote healthy bowel regularity.
-              </p>
-            </div>
+        <h2
+          class="font-philosopher text-[38px] md:text-[70px] font-bold leading-tight md:leading-[85px] text-[#121212] max-w-[741px] text-center mx-auto"
+        >
+          Supporting Health,
+          <span class="text-[#35A318]">Every Day</span>
+        </h2>
 
-            <!-- Feature 2 -->
-            <div
-              class="flex flex-col items-center text-center md:items-start md:text-left max-w-[500px] md:max-w-full mx-auto"
-            >
-              <div class="mb-6">
-                <img
-                  src="./image/feature-sec-img-2.png"
-                  alt="FSSAI"
-                  class="h-[59px] w-[120px]"
-                />
-              </div>
-              <h3
-                class="font-['Philosopher'] font-bold text-[35px] leading-[1.1] text-[#121212] mb-4 mt-10"
-              >
-                FSSAI Approved <br class="hidden md:block" />
-                Health Benefits
-              </h3>
-              <p
-                class="font-['Poppins'] font-normal text-[18px] text-[#6A6A6A] leading-[1.6]"
-              >
-                Sunfiber with FSSAI approved health claims and can be used in
-                food and nutrition products that support digestive health and
-                gut wellness.
-              </p>
-            </div>
+        <p
+          class="font-poppins font-normal text-[16px] md:text-[18px] leading-[28px] mt-[31px] mb-[49px] text-[#6A6A6A]"
+        >
+          We believe that everyone deserves the opportunity to live a vibrant,
+          healthy life.
+          <br />With the philosophy “supporting your health every day”  <br />
+          At our core, we create scientifically developed nutritional solutions
+          designed to improve daily wellbeing. Our mission is simple — combine
+          nature and science to deliver ingredients and products that support
+          healthier lives. Through continuous research, innovation and a deep
+          respect for natural ingredients. We strive to bring reliable health
+          solutions to consumers around the world.
+        </p>
+      </div>
+    </section>
 
-            <!-- Feature 3 -->
-            <div
-              class="flex flex-col items-center text-center md:items-start md:text-left max-w-[500px] md:max-w-full mx-auto"
-            >
-              <div class="mb-6">
-                <img
-                  src="./image/feature-sec-img-3.png"
-                  alt="FODMAP"
-                  class="h-20 w-auto"
-                />
-              </div>
-              <h3
-                class="font-['Philosopher'] font-bold text-[35px] leading-[1.1] text-[#121212] mb-4 mt-4"
-              >
-                Low Fodmap <br class="hidden md:block" />
-                Fiber
-              </h3>
-              <p
-                class="font-['Poppins'] font-normal text-[18px] text-[#6A6A6A] leading-[1.6]"
-              >
-                Sunfiber is certified low FODMAP, making it suitable for
-                individuals with sensitive digestion and those following a low
-                FODMAP diet for better gut comfort.
-              </p>
+    <!-- Approach Section -->
+    <section
+      class="relative bg-[#F4FFE6] py-16 md:py-20 px-6 md:px-12 overflow-hidden flex items-center min-h-screen lg:min-h-[650px]"
+    >
+      <div
+        class="max-w-[1400px] mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-center relative z-10"
+      >
+        <!-- LEFT SIDE: Image) -->
+        <div class="flex justify-center lg:justify-start w-full">
+          <div class="rounded-xl bg-white shadow-sm w-full">
+            <div class="overflow-hidden rounded-xl">
+              <img
+                src="./image/our-approach.png"
+                alt="Wellness Process"
+                class="w-full h-auto object-cover lg:max-h-[759px]"
+              />
             </div>
           </div>
         </div>
-      </section>
 
-      <!-- ===================== About Section ====================== -->
-      <section class="bg-[#F4FFE6] py-16 px-6 md:px-12">
-        <div class="about-content max-w-[741px] mx-auto text-center px-4">
-          <!-- Subtitle -->
-
-          <div class="sub-heading flex justify-center mb-[15px]">
-            <div class="relative inline-block group">
-              <img
-                src="./image/sub-heading-img.png"
-                class="absolute left-[-25px] top-1/2 -translate-y-1/2 w-[45px] md:w-[75px] h-auto z-0 opacity-100"
-                alt="Icon"
-              />
-
-              <span
-                class="relative z-10 font-poppins font-normal text-[12px] sm:text-[16px] md:text-[20px] tracking-[0.4em] uppercase text-[#2D2A26] pl-2"
-              >
-                About us
-              </span>
-            </div>
-          </div>
-
+        <!-- RIGHT SIDE: Content -->
+        <div
+          class="flex flex-col items-center lg:items-start text-center lg:text-left"
+        >
           <h2
-            class="font-philosopher text-[38px] md:text-[70px] font-bold leading-tight md:leading-[85px] text-[#121212]"
+            class="font-philosopher text-[40px] md:text-[60px] lg:text-[70px] leading-[1.1] mb-6 md:mb-8"
           >
-            Smart Prebiotic Fiber For a
-            <span class="text-[#35A318]">Healthy Gut</span>
+            <span class="text-[#1a1a1a] font-bold">Our</span>
+            <span class="text-[#4caf31] font-bold">Approach</span>
           </h2>
 
-          <p
-            class="font-poppins font-normal text-[16px] md:text-[18px] leading-[28px] mt-[31px] mb-[49px] text-[#6A6A6A]"
+          <div
+            class="space-y-6 text-gray-600 text-base md:text-lg lg:text-[19px] leading-relaxed max-w-[580px]"
           >
-            A clinically studied soluble dietary fiber that supports digestive
-            balance, promotes gut regularity and nourishes beneficial gut
-            bacteria — gently and naturally.
-          </p>
+            <p>
+              At the heart of our brand is a commitment to science, natural
+              ingredients, and long-term wellness.
+            </p>
+            <p>
+              Each product we develop is carefully designed to deliver
+              functional benefits that support everyday health.
+            </p>
+          </div>
 
-          <!-- Button -->
-          <a
-            href="#"
-            class="inline-flex items-center justify-center bg-[#35A318] text-white px-10 py-4 rounded-full font-poppins text-[18px] hover:bg-black hover:text-white transition duration-300"
-          >
-            Read More
-          </a>
+          <!-- List Section -->
+          <div class="mt-10 md:mt-12 w-full">
+            <h3
+              class="font-philosopher font-bold text-[22px] md:text-[25px] text-[#1a1a1a] mb-6"
+            >
+              We focus on ingredients that are:
+            </h3>
+            <div class="flex flex-col items-center lg:items-start">
+              <ul class="space-y-4 text-left">
+                <li
+                  class="flex items-center text-gray-600 text-base md:text-lg"
+                >
+                  <span
+                    class="w-[5px] h-[5px] bg-black rounded-full mr-4 flex-shrink-0"
+                  ></span>
+                  Scientifically validated
+                </li>
+                <li
+                  class="flex items-center text-gray-600 text-base md:text-lg"
+                >
+                  <span
+                    class="w-[5px] h-[5px] bg-black rounded-full mr-4 flex-shrink-0"
+                  ></span>
+                  Derived from natural sources
+                </li>
+                <li
+                  class="flex items-center text-gray-600 text-base md:text-lg"
+                >
+                  <span
+                    class="w-[5px] h-[5px] bg-black rounded-full mr-4 flex-shrink-0"
+                  ></span>
+                  Safe for long-term consumption
+                </li>
+                <li
+                  class="flex items-center text-gray-600 text-base md:text-lg"
+                >
+                  <span
+                    class="w-[5px] h-[5px] bg-black rounded-full mr-4 flex-shrink-0"
+                  ></span>
+                  Effective in supporting daily wellbeing
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===================== Pillar Section ====================== -->
+    <section
+      class="relative bg-gradient-to-b from-[#5a8b3d] via-[#336024] to-[#122c10] py-24 px-6 text-white overflow-hidden"
+    >
+      <img
+        src="./image/about-pg-vector-img.png"
+        class="absolute top-0 left-0 w-full h-auto"
+        alt="wave"
+      />
+      <div class="max-w-[1400px] mx-auto">
+        <!-- Heading -->
+        <div class="text-center mb-20">
+          <h2 class="font-philosopher text-[45px] md:text-[70px] leading-tight">
+            <span class="text-white">Our</span>
+            <span class="text-[#88CB72]">Pillars</span>
+          </h2>
         </div>
 
-        <!-- Swiper Container -->
-      </section>
-
-      <!-- ===================== More info Section ====================== -->
-
-      <section
-        class="relative bg-[url('/image/more-info-bg.png')] bg-cover bg-center bg-no-repeat pb-40 lg:pb-60 overflow-visible"
-      >
-        <img
-          src="./image/more-info-top-img.png"
-          class="absolute -top-[1px] left-0 w-full h-auto block z-10 scale-x-105 pointer-events-none"
-          alt="Wave Design"
-        />
-
+        <!-- ROW 1 -->
         <div
-          class="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 pt-32 lg:pt-48 relative z-20"
+          class="grid grid-cols-1 lg:grid-cols-3 gap-y-16 lg:gap-y-0 items-start"
         >
+          <!-- Pillar 1 -->
           <div
-            class="flex flex-col lg:flex-row gap-10 items-center lg:items-center text-center lg:text-left mb-16"
+            class="relative flex flex-col items-center text-center px-10 h-full"
           >
-            <div class="w-full lg:w-3/5">
-              <div
-                class="sub-heading flex justify-center lg:justify-start mb-[15px]"
-              >
-                <div class="relative flex items-center">
-                  <img
-                    src="./image/sub-heading-img.png"
-                    class="w-[50px] md:w-[60px] h-auto"
-                    alt="Icon"
-                  />
-                  <span
-                    class="font-poppins font-normal text-[12px] md:text-[20px] tracking-[0.4em] uppercase text-[#FFFFFF] -ml-6 md:-ml-8"
-                  >
-                    More Info
-                  </span>
-                </div>
-              </div>
-              <h2
-                class="font-philosopher text-[38px] md:text-[70px] font-bold leading-tight md:leading-[85px] text-[#FFFFFF]"
-              >
-                One Fiber. Endless Ways To
-                <span class="text-[#35A318]">Use It.</span>
-              </h2>
+            <div
+              class="w-16 h-16 bg-[#4CAF31] rounded-2xl flex items-center justify-center mb-6 shadow-lg"
+            >
+              <img
+                src="./image/scientific-credibility.png"
+                alt=""
+                class="w-9 h-9 object-contain"
+              />
             </div>
+            <h3 class="font-philosopher text-2xl font-bold mb-4">
+              Scientific Credibility
+            </h3>
+            <p
+              class="text-sm md:text-base text-gray-200 leading-relaxed mb-6 max-w-[300px]"
+            >
+              Our products are built on strong scientific foundations.
+            </p>
+            <a
+              class="relative group font-poppins text-[16px] text-white hover:text-[#76BA1E] transition-all duration-300"
+              href="#"
+            >
+              Read More
+              <span
+                class="absolute left-0 bottom-[-5px] w-0 h-[2px] bg-[#76BA1E] transition-all duration-300 group-hover:w-full"
+              ></span>
+            </a>
 
-            <div class="w-full lg:w-2/5">
-              <p
-                class="font-poppins font-normal text-[16px] md:text-[18px] leading-[28px] text-[#FFFFFF]"
+            <!-- Dotted Line (Right) -->
+            <div
+              class="hidden lg:block absolute right-0 top-0 h-full w-[1px]"
+              style="
+                background-image: linear-gradient(
+                  to bottom,
+                  transparent,
+                  rgba(255, 255, 255, 0.5) 50%,
+                  transparent
+                );
+                mask-image: radial-gradient(
+                  circle,
+                  black 1px,
+                  transparent 1.5px
+                );
+                mask-size: 1px 8px;
+              "
+            ></div>
+          </div>
+
+          <!-- Pillar 2 -->
+          <div
+            class="relative flex flex-col items-center text-center px-10 h-full"
+          >
+            <div
+              class="w-16 h-16 bg-[#4CAF31] rounded-2xl flex items-center justify-center mb-6 shadow-lg"
+            >
+              <img
+                src="./image/natural-integrity.png"
+                alt=""
+                class="w-9 h-9 object-contain"
+              />
+            </div>
+            <h3 class="font-philosopher text-2xl font-bold mb-4">
+              Natural Integrity
+            </h3>
+            <p
+              class="text-sm md:text-base text-gray-200 leading-relaxed mb-6 max-w-[300px]"
+            >
+              We believe that the most powerful health solutions often come from
+              nature itself.
+            </p>
+            <a
+              class="relative group font-poppins text-[16px] text-white hover:text-[#76BA1E] transition-all duration-300"
+              href="#"
+            >
+              Read More
+              <span
+                class="absolute left-0 bottom-[-5px] w-0 h-[2px] bg-[#76BA1E] transition-all duration-300 group-hover:w-full"
+              ></span>
+            </a>
+
+            <!-- Dotted Line (Right) -->
+            <div
+              class="hidden lg:block absolute right-0 top-0 h-full w-[1px]"
+              style="
+                background-image: linear-gradient(
+                  to bottom,
+                  transparent,
+                  rgba(255, 255, 255, 0.5) 50%,
+                  transparent
+                );
+                mask-image: radial-gradient(
+                  circle,
+                  black 1px,
+                  transparent 1.5px
+                );
+                mask-size: 1px 8px;
+              "
+            ></div>
+          </div>
+
+          <!-- Pillar 3 -->
+          <div class="flex flex-col items-center text-center px-10 h-full">
+            <div
+              class="w-16 h-16 bg-[#4CAF31] rounded-2xl flex items-center justify-center mb-6 shadow-lg"
+            >
+              <img
+                src="./image/safety-and-trust.png"
+                alt=""
+                class="w-9 h-9 object-contain"
+              />
+            </div>
+            <h3 class="font-philosopher text-2xl font-bold mb-4">
+              Safety And Trust
+            </h3>
+            <p
+              class="text-sm md:text-base text-gray-200 leading-relaxed mb-6 max-w-[300px]"
+            >
+              Safety is not optional — it is our foundation.
+            </p>
+            <a
+              class="relative group font-poppins text-[16px] text-white hover:text-[#76BA1E] transition-all duration-300"
+              href="#"
+            >
+              Read More
+              <span
+                class="absolute left-0 bottom-[-5px] w-0 h-[2px] bg-[#76BA1E] transition-all duration-300 group-hover:w-full"
+              ></span>
+            </a>
+          </div>
+        </div>
+
+        <!-- ROW 2 -->
+        <div
+          class="grid grid-cols-1 lg:grid-cols-2 gap-y-16 lg:gap-y-0 items-start mt-20 lg:mt-32 max-w-[900px] mx-auto"
+        >
+          <!-- Pillar 4 -->
+          <div
+            class="relative flex flex-col items-center text-center px-10 h-full"
+          >
+            <div
+              class="w-16 h-16 bg-[#4CAF31] rounded-2xl flex items-center justify-center mb-6 shadow-lg"
+            >
+              <img
+                src="./image/social-contribution.png"
+                alt=""
+                class="w-9 h-9 object-contain"
+              />
+            </div>
+            <h3 class="font-philosopher text-2xl font-bold mb-4">
+              Social Contribution
+            </h3>
+            <p
+              class="text-sm md:text-base text-gray-200 leading-relaxed mb-6 max-w-[320px]"
+            >
+              Health is not just personal — it is a shared societal value.
+            </p>
+            <a
+              class="relative group font-poppins text-[16px] text-white hover:text-[#76BA1E] transition-all duration-300"
+              href="#"
+            >
+              Read More
+              <span
+                class="absolute left-0 bottom-[-5px] w-0 h-[2px] bg-[#76BA1E] transition-all duration-300 group-hover:w-full"
+              ></span>
+            </a>
+
+            <!--  Dotted Line (Right) -->
+            <div
+              class="hidden lg:block absolute right-0 top-0 h-full w-[1px]"
+              style="
+                background-image: linear-gradient(
+                  to bottom,
+                  transparent,
+                  rgba(255, 255, 255, 0.5) 50%,
+                  transparent
+                );
+                mask-image: radial-gradient(
+                  circle,
+                  black 1px,
+                  transparent 1.5px
+                );
+                mask-size: 1px 8px;
+              "
+            ></div>
+          </div>
+
+          <!-- Pillar 5 -->
+          <div class="flex flex-col items-center text-center px-10 h-full">
+            <div
+              class="w-16 h-16 bg-[#4CAF31] rounded-2xl flex items-center justify-center mb-6 shadow-lg"
+            >
+              <img
+                src="./image/sustainability of-wellness.png"
+                alt=""
+                class="w-9 h-9 object-contain"
+              />
+            </div>
+            <h3 class="font-philosopher text-2xl font-bold mb-4">
+              Sustainability Of Wellness
+            </h3>
+            <p
+              class="text-sm md:text-base text-gray-200 leading-relaxed mb-6 max-w-[320px]"
+            >
+              True wellness is sustainable. Our philosophy goes beyond
+              short-term...
+            </p>
+            <a
+              class="relative group font-poppins text-[16px] text-white hover:text-[#76BA1E] transition-all duration-300"
+              href="#"
+            >
+              Read More
+              <span
+                class="absolute left-0 bottom-[-5px] w-0 h-[2px] bg-[#76BA1E] transition-all duration-300 group-hover:w-full"
+              ></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===================== Innovation Section ====================== -->
+    <section class="bg-[#F4FFE6] py-16 lg:py-24 overflow-hidden">
+      <div class="max-w-7xl mx-auto px-6 lg:px-12">
+        <div
+          class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center"
+        >
+          <!-- Text Content -->
+          <div
+            class="order-2 lg:order-1 flex flex-col items-center text-center lg:items-start lg:text-left"
+          >
+            <h2
+              class="font-philosopher text-4xl md:text-5xl lg:text-6xl font-bold text-[#1A1A1A] leading-tight mb-6"
+            >
+              Innovation <br />
+              Inspired By
+              <span class="text-[#4CAF31]"
+                >Nature <br />
+                And Science</span
               >
-                Sunfiber mixes effortlessly into beverages and foods without
-                altering taste or texture, making it easy to add digestive
-                support to your daily routine. Colorless. Odorless. Tasteless
+            </h2>
+
+            <div
+              class="space-y-5 text-gray-600 font-poppins text-sm md:text-base leading-relaxed max-w-[550px] mx-auto lg:mx-0"
+            >
+              <p>
+                We continuously explore functional ingredients derived from
+                natural sources that support modern health needs.
+              </p>
+              <p>
+                By combining scientific expertise, global research, and natural
+                nutrition, we develop products that support digestion,
+                nutrition, and overall wellness.
+              </p>
+              <p>
+                Our commitment to innovation allows us to deliver solutions that
+                meet the evolving needs of today's consumers.
               </p>
             </div>
           </div>
 
-          <!-- video sec -->
+          <!-- Right Images -->
+
           <div
-            class="relative w-full max-w-[1400px] mx-auto -mb-96 lg:-mb-[550px] z-30"
+            class="order-1 lg:order-2 relative flex justify-center items-center min-h-[450px] md:min-h-[600px] w-full"
           >
+            <!-- Left/Background Image -->
             <div
-              class="relative rounded-[30px] overflow-hidden shadow-2xl group/video"
+              class="relative z-10 -rotate-[10deg] -translate-x-8 translate-y-8 md:-translate-x-10 md:translate-y-10 transition-transform hover:rotate-0 duration-500"
             >
-              <img
-                src="/image/video-img.png"
-                alt="Video"
-                class="w-full h-auto object-cover min-h-[300px] transition-transform duration-700 group-hover/video:scale-105"
-              />
-
-              <div class="absolute inset-0 flex items-center justify-center">
-                <a
-                  href="#"
-                  class="group relative w-16 h-16 md:w-24 md:h-24 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center border border-white/40 hover:bg-white/30 hover:scale-110 hover:shadow-[0_0_30px_rgba(255,255,255,0.4)] transition-all duration-500"
-                >
-                  <div
-                    class="w-12 h-12 md:w-16 md:h-16 bg-white rounded-full flex items-center justify-center shadow-lg transition-all duration-300 group-hover:bg-[#35A318]"
-                  >
-                    <svg
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="ml-1 transition-colors duration-300"
-                    >
-                      <path
-                        d="M5 3L19 12L5 21V3Z"
-                        class="fill-[#35A318] group-hover:fill-white"
-                      />
-                    </svg>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- ===================== Review Section ====================== -->
-      <section class="bg-white pt-[130px] lg:pt-[440px] pb-[130px]">
-        <div class="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="flex justify-center items-center">
-            <img
-              src="./image/girl-img.png"
-              class="w-[490px] h-[480px] object-contain"
-              alt="Centered Section Image"
-            />
-          </div>
-        </div>
-        <!-- <img
-        src="./image/blog-sec-top-img.png"
-        class="w-full h-auto block -mb-[2px] relative z-10 scale-x-105"
-        alt="Top Wave"
-      /> -->
-      </section>
-
-      <!-- ===================== Blog Section ====================== -->
-
-      <section
-        class="bg-[url('/image/blog-bg.png')] bg-cover bg-center bg-no-repeat"
-      >
-        <div class="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 py-20">
-          <div class="text-center mb-16">
-            <div class="sub-heading flex justify-center mb-[15px]">
-              <div class="relative inline-block group">
+              <div
+                class="bg-white p-2 md:p-3 rounded-[2rem] md:rounded-[2.5rem] shadow-xl"
+              >
                 <img
-                  src="./image/sub-heading-img.png"
-                  class="absolute left-[-25px] top-1/2 -translate-y-1/2 w-[45px] md:w-[75px] h-auto z-0 opacity-100"
-                  alt="Icon"
+                  src="./image/innovation-img-2.png"
+                  alt="Innovation Image 2"
+                  class="w-52 h-72 md:w-72 md:h-96 object-cover rounded-[1.5rem] md:rounded-[2rem]"
                 />
-                <span
-                  class="relative z-10 font-poppins font-normal text-[12px] sm:text-[16px] md:text-[20px] tracking-[0.4em] uppercase text-white pl-2"
-                >
-                  Blogs Post
-                </span>
               </div>
             </div>
 
-            <h2
-              class="font-philosopher text-[38px] md:text-[70px] font-bold leading-tight md:leading-[85px] text-white"
-            >
-              Latest <span class="text-[#35A318]">Blog Post</span>
-            </h2>
-          </div>
-
-          <!-- Blog Cards Grid -->
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <!-- Card 1 -->
+            <!-- Right/Foreground Image -->
             <div
-              class="group relative h-[500px] rounded-[20px] overflow-hidden shadow-lg transition-all duration-500 hover:-translate-y-2"
+              class="absolute z-20 rotate-[10deg] translate-x-12 -translate-y-12 md:translate-x-24 md:-translate-y-20 transition-transform hover:rotate-0 duration-500"
             >
-              <img
-                src="./image/blog-card-img-1.png"
-                class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                alt="Blog 1"
-              />
               <div
-                class="absolute inset-x-0 bottom-0 bg-white p-6 m-4 rounded-[15px] transition-all duration-500"
+                class="bg-white p-2 md:p-3 rounded-[2rem] md:rounded-[2.5rem] shadow-2xl border border-white"
               >
-                <h4
-                  class="font-philosopher text-[22px] font-bold text-[#121212] leading-tight"
-                >
-                  Lorem Ipsum is simply dummy text in the industry.
-                </h4>
-                <!-- Hidden Content (Shows on Hover) -->
-                <div
-                  class="max-h-0 opacity-0 group-hover:max-h-40 group-hover:opacity-100 transition-all duration-500 overflow-hidden"
-                >
-                  <p class="font-poppins text-[#6A6A6A] text-[15px] mt-3">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.
-                  </p>
-                  <a
-                    href="#"
-                    class="inline-block mt-4 text-[#35A318] font-bold relative group/link"
-                  >
-                    Read More
-                    <span
-                      class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#35A318] transition-all duration-300 group-hover/link:w-full"
-                    ></span>
-                  </a>
-                </div>
+                <img
+                  src="./image/innovation-img.png"
+                  alt="Innovation Image 1"
+                  class="w-52 h-72 md:w-72 md:h-96 object-cover rounded-[1.5rem] md:rounded-[2rem]"
+                />
               </div>
             </div>
-
-            <!-- Card 2 -->
-            <div
-              class="group relative h-[500px] rounded-[20px] overflow-hidden shadow-2xl ring-4 ring-[#35A318]/10 transition-all duration-500 hover:-translate-y-2"
-            >
-              <img
-                src="./image/blog-card-img-2.png"
-                class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                alt="Blog 2"
-              />
-
-              <div
-                class="absolute inset-x-0 bottom-0 bg-white p-6 m-4 rounded-[15px] z-10"
-              >
-                <h4
-                  class="font-philosopher text-[22px] font-bold text-[#121212] leading-tight"
-                >
-                  Lorem Ipsum is simply dummy text in the industry.
-                </h4>
-
-                <div>
-                  <p class="font-poppins text-[#6A6A6A] text-[15px] mt-3">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.
-                  </p>
-                  <a
-                    href="#"
-                    class="inline-block mt-4 text-[#35A318] font-bold relative group/link"
-                  >
-                    Read More
-                    <span
-                      class="absolute left-0 bottom-0 w-full h-[2px] bg-[#35A318]"
-                    ></span>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <!-- Card 3 -->
-            <div
-              class="group relative h-[500px] rounded-[20px] overflow-hidden shadow-lg transition-all duration-500 hover:-translate-y-2"
-            >
-              <img
-                src="./image/blog-card-img-3.png"
-                class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                alt="Blog 3"
-              />
-              <div
-                class="absolute inset-x-0 bottom-0 bg-white p-6 m-4 rounded-[15px] transition-all duration-500"
-              >
-                <h4
-                  class="font-philosopher text-[22px] font-bold text-[#121212] leading-tight"
-                >
-                  Lorem Ipsum is simply dummy text in the industry.
-                </h4>
-                <!-- Hidden Content (Shows on Hover) -->
-                <div
-                  class="max-h-0 opacity-0 group-hover:max-h-40 group-hover:opacity-100 transition-all duration-500 overflow-hidden"
-                >
-                  <p class="font-poppins text-[#6A6A6A] text-[15px] mt-3">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.
-                  </p>
-                  <a
-                    href="#"
-                    class="inline-block mt-4 text-[#35A318] font-bold relative group/link"
-                  >
-                    Read More
-                    <span
-                      class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#35A318] transition-all duration-300 group-hover/link:w-full"
-                    ></span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- View All Button -->
-          <div class="mt-16 flex justify-center">
-            <a
-              href="#"
-              class="inline-flex items-center justify-center bg-white text-black px-10 py-4 rounded-full font-poppins text-[18px] hover:bg-black hover:text-white transition duration-300"
-            >
-              View All
-            </a>
           </div>
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
 
     <!-- ===================== Footer Section ====================== -->
     <footer class="relative bg-[#121212] pb-10 overflow-hidden">
       <img
-        src="./image/blog-sec-bottom-img.png"
+        src="./image/about-pg-footer-vector.png"
         class="w-full h-auto block -mt-[2px] relative z-10 scale-x-105"
         alt="Bottom Wave"
       />
